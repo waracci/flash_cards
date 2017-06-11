@@ -1,0 +1,28 @@
+body{
+    margin-top: 65px;
+    background: rgba(22,112,68,0.2);
+    height: 60vh;
+}
+.card-background-image{
+    background-image: url('../img/1.jpg');
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.jumbotron{
+    background: #abc;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+}
+#flashAns1, #flashAns2, #flashAns3, #flashAns12, #flashAns22, #flashAns32, #flashAns13, #flashAns23, #flashAns33, #flashAns14, #flashAns24, #flashAns34 {
+    display: none;
+}
+.pad{
+    padding: 6%;
+    margin: 2%;
+    background: #abc;
+    text-align: center;
+    border-radius: 6px;
+    position: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
